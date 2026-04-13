@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_calendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="Calendar" />
+    <item
+        android:id="@+id/nav_notebook"
+        android:icon="@drawable/ic_notebook"
+        android:title="Notebook" />
+    <item
+        android:id="@+id/nav_quick"
+        android:icon="@drawable/ic_quick"
+        android:title="Quick" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profil"
+        android:title="Profil" />
+</menu>

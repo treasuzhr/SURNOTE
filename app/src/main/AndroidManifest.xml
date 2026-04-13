@@ -29,6 +29,9 @@
             android:name=".MainActivity"
             android:exported="false" />
 
+        <activity android:name=".NoteListActivity"/>
+        <activity android:name=".NoteDetailActivity"/>
+
     </application>
 
 </manifest>

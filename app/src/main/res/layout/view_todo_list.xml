@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jadwal Hari Ini"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/brand_primary"
+        android:layout_marginBottom="12dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTodoList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:id="@+id/tvSelesai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Selesai: 0/0"
+            android:textColor="#757575"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/tvTersisa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 Tersisa"
+            android:textColor="@color/brand_primary"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ Tambah To-Do"
+        android:layout_marginTop="8dp"
+        app:cornerRadius="12dp"/>
+
+</LinearLayout>
